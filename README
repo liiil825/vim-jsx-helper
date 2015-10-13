@@ -1,0 +1,17 @@
+vim编辑器里针对jsx文件简单的代码生成工具
+-----------------------
+
+```<c-f>,
+onClick: function(){
+},
+
+
+```<c-f>(
+list.map(function(){
+})
+
+```<c-f>R
+Component = React.createClass({
+  render: function() {
+  }
+});
